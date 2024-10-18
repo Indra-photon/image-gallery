@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import LogoutBtn from '../components/LogOutBtn';
+import LogoutBtn from '../components/LogoutBtn';
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // Manage mobile menu state
